@@ -36,7 +36,7 @@ public class All extends Application {
         root.setHgap(5);
         root.setVgap(5);
         root.setAlignment(Pos.CENTER);
-        Scene scene = new Scene(root, 1000, 1000);
+        Scene scene = new Scene(root, 900, 900); //1000, 1000
         primaryStage.setScene(scene);
         primaryStage.setTitle("Main");
         Button Button1 = new Button("  IP Finder   ");
