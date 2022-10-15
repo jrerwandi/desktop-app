@@ -82,7 +82,8 @@ public class All extends Application {
         rootNode.setHgap(5);
         rootNode.setVgap(5);
         rootNode.setAlignment(Pos.CENTER);
-        Scene myScene = new Scene(rootNode, 500, 500);
+        //Scene myScene = new Scene(rootNode, 500, 500);
+        Scene myScene = new Scene(rootNode, 550, 550);
         Label l1 = new Label(" Enter Website URL: ");
         l1.setStyle("-fx-text-fill:white;-fx-font-size:30;-fx-background-color:#123689;-fx-padding:10");
         rootNode.add(l1, 0, 0);
