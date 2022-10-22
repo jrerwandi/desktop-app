@@ -33,8 +33,8 @@ public class All extends Application {
         root.setStyle("-fx-background-color:#f93800;-fx-padding:10");
         root.add(label, 0, 0);
         label.setStyle("-fx-font-size:50px;-fx-text-fill:white;-fx-background-color:#0000ff;-fx-font-family:Elephant");
-        root.setHgap(5);
-        root.setVgap(5);
+        root.setHgap(10); //5
+        root.setVgap(10); //5
         root.setAlignment(Pos.CENTER);
         Scene scene = new Scene(root, 900, 900); //1000, 1000
         primaryStage.setScene(scene);
